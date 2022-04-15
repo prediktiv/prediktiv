@@ -1,13 +1,9 @@
-.secondary-button-root-class-name {
-  margin-top: var(--dl-space-space-unitandhalf);
-}
-.secondary-button-container {
+.primary-button-container {
   display: flex;
   position: relative;
 }
-.secondary-button-button {
+.primary-button-button {
   color: var(--dl-color-gray-white);
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   transition: 0.3s;
   line-height: 1;
   padding-top: var(--dl-space-space-halfunit);
@@ -16,11 +12,11 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
   text-transform: uppercase;
-  background-color: var(--dl-color-secondary-300);
+  background-color: var(--dl-color-pimary-500);
 }
-.secondary-button-button:hover {
+.primary-button-button:hover {
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
 }
-.secondary-button-button:active {
-  background-color: var(--dl-color-secondary-100);
+.primary-button-button:active {
+  background-color: var(--dl-color-pimary-300);
 }
